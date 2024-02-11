@@ -1,0 +1,23 @@
+body {background-color: #0E1948; color: #FFFFFF;  font-size: 12 px; font-family: arial, helvetica, sans-serif;}
+td { font-size: 12px }
+
+a,a:visited{color: #3BACF2; text-decoration:none; font-weight: normal; font-family: arial}
+a:hover{color: #3BACF2; text-decoration:underline; font-weight: normal; font-family: arial}
+
+a:link.yellowlink {color: #FFFF00; text-decoration: underline; font-family: arial; font-size: 12 px;}
+a:active.yellowlink {color: #FFFF00; text-decoration: underline; font-family: arial; font-size: 12 px;}
+a:visited.yellowlink {color: #FFFF00; text-decoration: underline; font-family: arial; font-size: 12 px;}
+a:hover.yellowlink {color: #FFFF00; text-decoration: underline; font-family: arial; font-size: 12 px;}
+
+a:link.bluelink {color: #3BACF2; text-decoration: underline; font-family: arial; font-size: 12 px;}
+a:active.bluelink {color: #3BACF2; text-decoration: underline; font-family: arial; font-size: 12 px;}
+a:visited.bluelink {color: #3BACF2; text-decoration: underline; font-family: arial; font-size: 12 px;}
+a:hover.bluelink {color: #3BACF2; text-decoration: underline; font-family: arial; font-size: 12 px;}
+
+a:link.mainlink {color: #FFFFFF; text-decoration: none; font-family: arial, helvetica, sans-serif; font-size: 13 px; font-weight: bold;}
+a:active.mainlink {color: #FFFFFF; text-decoration: none; font-family: arial, helvetica, sans-serif; font-size: 13 px; font-weight: bold;}
+a:visited.mainlink {color: #FFFFFF; text-decoration: none; font-family: arial, helvetica, sans-serif; font-size: 13 px; font-weight: bold;}
+a:hover.mainlink, span.mainlink {color: #FFFF00; text-decoration: none; font-family: arial, helvetica, sans-serif; font-size: 13 px; font-weight: bold;}
+
+
+input,textarea,select {background-color: #FFFFFF; color: #000000; font-size: 12 px; font-family: arial, sans-serif}

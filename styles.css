@@ -1,0 +1,62 @@
+body {background-color: #1285E6; color: #FFFFFF;  font-size: 12 px; font-family: arial, helvetica, sans-serif;}
+
+span.head {
+	font-size: 14px;
+}
+
+table,td
+{
+    border-color: #1C447A;
+    border-style: none;
+	border-width: 0;
+	font-size: 12px
+}
+
+table,td.data
+{
+    border-color: #3CA4E9;
+    border-style: solid;
+}
+table.data
+{
+    border-width: 1px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+td.data
+{
+    margin: 0;
+    padding: 4px;
+    border-width: 1px;
+}
+
+td.datah {
+	border-color : #3CA4E9;
+	background-color : #1C447A;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0;
+    padding: 4px;
+}
+
+
+a,a:visited{color: #3BACF2; text-decoration:none; font-weight: normal; font-family: arial}
+a:hover{color: #3BACF2; text-decoration:underline; font-weight: normal; font-family: arial}
+
+a:link.yellowlink {color: #FFFF00; text-decoration: underline; font-family: arial; font-size: 12 px;}
+a:active.yellowlink {color: #FFFF00; text-decoration: underline; font-family: arial; font-size: 12 px;}
+a:visited.yellowlink {color: #FFFF00; text-decoration: underline; font-family: arial; font-size: 12 px;}
+a:hover.yellowlink {color: #FFFF00; text-decoration: underline; font-family: arial; font-size: 12 px;}
+
+a:link.bluelink {color: #3BACF2; text-decoration: underline; font-family: arial; font-size: 12 px;}
+a:active.bluelink {color: #3BACF2; text-decoration: underline; font-family: arial; font-size: 12 px;}
+a:visited.bluelink {color: #3BACF2; text-decoration: underline; font-family: arial; font-size: 12 px;}
+a:hover.bluelink {color: #3BACF2; text-decoration: underline; font-family: arial; font-size: 12 px;}
+
+a:link.mainlink {color: #FFFFFF; text-decoration: none; font-family: arial, helvetica, sans-serif; font-size: 13 px; font-weight: bold;}
+a:active.mainlink {color: #FFFFFF; text-decoration: none; font-family: arial, helvetica, sans-serif; font-size: 13 px; font-weight: bold;}
+a:visited.mainlink {color: #FFFFFF; text-decoration: none; font-family: arial, helvetica, sans-serif; font-size: 13 px; font-weight: bold;}
+a:hover.mainlink, span.mainlink {color: #FFFF00; text-decoration: none; font-family: arial, helvetica, sans-serif; font-size: 13 px; font-weight: bold;}
+
+
+input,textarea,select {background-color: #FFFFFF; color: #000000; font-size: 12 px; font-family: arial, sans-serif}

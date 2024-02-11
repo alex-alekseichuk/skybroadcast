@@ -1,0 +1,105 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Cache-Control" content="no-cache,post-check=0,pre-check=0,no-cache" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="Thu,01Dec199416:00:00GMT" />
+<link href="styles.css" rel="stylesheet" type="text/css">
+<title>News</title>
+</head>
+<script language="JavaScript" type="text/JavaScript">
+function MM_swapImgRestore(id) { //v3.0
+	document.all['rings_' + id].style.visibility='hidden';
+}
+
+function MM_swapImage(id) { //v3.0
+	document.all['rings_' + id].style.visibility='visible';
+}
+</script>
+
+<body marginheight="0" marginwidth="0" topmargin="0" rightmargin="0" bottommargin="0" leftmargin="0" bgcolor="#fefefe" 
+>
+<center>
+<table cellspacing="0" cellpadding="0" height="100%"><tr><td valign="top">
+<table width="770" bgcolor="0E1948" border="0">
+  <tr>
+    <td rowspan="2"><a href="index.php"><img border="0" height="86" width="225" src="./img/logo.gif"></a></td>
+	<td width="75" rowspan="2">&nbsp;</td>
+    <td valign="top" height="38"><div id="rings_home" style="visibility: hidden;"><img src="./img/rings.gif" name="Image0" height="38" width="50" border="0"></div></td>
+    <td valign="top"><div id="rings_news" style="visibility: visible;"><img src="./img/rings.gif" name="Image1" height="38" width="50" border="0"></div></td>
+    <td valign="top"><div id="rings_services" style="visibility: hidden;"><img src="./img/rings.gif" name="Image2" height="38" width="50" border="0"></div></td>
+    <td valign="top"><div id="rings_products" style="visibility: hidden;"><img src="./img/rings.gif" name="Image3" height="38" width="50" border="0"></div></td>
+    <td valign="top"><div id="rings_settings" style="visibility: hidden;"><img src="./img/rings.gif" name="Image4" height="38" width="50" border="0"></div></td>
+    <td valign="top"><div id="rings_downloads" style="visibility: hidden;"><img src="./img/rings.gif" name="Image5" height="38" width="50" border="0"></div></td>
+    <td valign="top"><div id="rings_contact" style="visibility: hidden;"><img src="./img/rings.gif" name="Image6" height="38" width="50" border="0"></div></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" height="48"><a class="mainlink" href="index.php" onMouseOver="MM_swapImage('home');" onMouseOut="MM_swapImgRestore('home');">home</a></td>
+    <td align="center" valign="top" ><span class="mainlink" >news</span></td>
+    <td align="center" valign="top" ><a class="mainlink" href="services.php" onMouseOver="MM_swapImage('services');" onMouseOut="MM_swapImgRestore('services');">services</a></td>
+    <td align="center" valign="top" ><a class="mainlink" href="products.php" onMouseOver="MM_swapImage('products');" onMouseOut="MM_swapImgRestore('products');">products</a></td>
+    <td align="center" valign="top" ><a class="mainlink" href="settings.php" onMouseOver="MM_swapImage('settings');" onMouseOut="MM_swapImgRestore('settings');">settings</a></td>
+    <td align="center" valign="top" ><a class="mainlink" href="downloads.php" onMouseOver="MM_swapImage('downloads');" onMouseOut="MM_swapImgRestore('downloads');">downloads</a></td>
+    <td align="center" valign="top" ><a class="mainlink" href="contactus.php" onMouseOver="MM_swapImage('contact');" onMouseOut="MM_swapImgRestore('contact');">contact us</a></td>
+  </tr>
+</table>
+{subheader}
+<table width="770" border="0">
+	<tr>
+	<td width="75%">
+		<table> 
+		<tr>
+			<td width="20" height="23">&nbsp;</td>
+			<td width="55" height="23">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="20" height="23">&nbsp;</td>
+			<td nowrap="nowrap"><img height="51" width="55" src="./img/main_rings.gif" align="absmiddle"> &nbsp;&nbsp;
+			<span style="font: 14pt arial; color:FFFF00;">News</span></td>
+		</tr>
+		<tr>
+			<td width="20" height="23">&nbsp;</td>
+			<td colspan="2">
+				<!-- BEGIN Grid news -->
+				<table border="0">
+				  <!-- BEGIN Row -->
+ 				  <tr>
+				    <td width="10"></td><td colspan="2">&nbsp;</td>
+				  </tr>
+				  <tr>
+				   <td width="8%"></td> <td bgcolor="#1C447A" width="2%" align="center" nowrap>&nbsp;{news_date}&nbsp;</td> 
+					<td width="90%">
+					</td>
+				  </tr>
+				  <tr>
+				  	<td width="10"></td><td colspan="2" height="5"></td>
+				  </tr>
+				  <tr>
+				    <td width="10"></td><td colspan="2" nowrap><b>{news_header}&nbsp;</b></td> 
+				  </tr>
+ 				  <tr>
+				    <td width="10"></td><td colspan="2">{news_body}&nbsp;</td> 
+				  </tr>
+ 				  <tr>
+				    <td width="10"></td><td colspan="2">&nbsp;</td>
+				  </tr>
+				 <!-- END Row -->
+				  <!-- BEGIN NoRecords -->
+				  <tr>
+				    <td width="10"></td><td colspan="3">&nbsp;</td> 
+				  </tr>
+				 <!-- END NoRecords -->
+				</table>
+				<!-- END Grid news -->
+			</td>
+		</tr>
+		</table>
+	</td>
+	<td width="25%">
+		{subfooter}
+	</td>
+	</tr>
+</table>
+{footer}
+</body>
+</html>

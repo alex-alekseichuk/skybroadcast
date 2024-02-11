@@ -1,0 +1,70 @@
+<html>
+<head>
+<meta name="GENERATOR" content="CodeCharge Studio 2.3.2.25">
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<title>Login</title>
+<link rel="stylesheet" type="text/css" href="Themes/RockIt/Style.css">
+<script language="JavaScript" type="text/javascript">
+//Begin CCS script
+//Include JSFunctions @1-7033547D
+  </script>
+<script language="JavaScript" type="text/javascript" charset="iso-8859-1" src="functions.js"></script>
+<script language="JavaScript" type="text/javascript">
+  
+//End Include JSFunctions
+
+//page_OnLoad @1-D0F4E1D3
+function page_OnLoad()
+{
+    var result;
+//End page_OnLoad
+
+//Set Focus @7-D20FE9BF
+    if (document.forms["Login"] && document.forms["Login"].login) document.forms["Login"].login.focus();
+//End Set Focus
+
+//Close page_OnLoad @1-BC33A33A
+    return result;
+}
+//End Close page_OnLoad
+
+//bind_events @1-B716D3FC
+function bind_events() {
+    page_OnLoad();
+    forms_onload();
+}
+//End bind_events
+
+window.onload = bind_events; //Assign bind_events @1-19F7B649
+//End CCS script
+</script>
+</head>
+<body bgcolor="#FFFFFF" link="#000099" alink="#FF0000" vlink="#000099" text="#000000" class="RockItPageBODY">
+<!-- BEGIN Record Login -->
+<form method="post" action="{Action}" name="{HTMLFormName}">
+  <font class="RockItFormHeaderFont">Login</font>
+  <table cellpadding="2" cellspacing="0" class="RockItFormTABLE">
+    <!-- BEGIN Error -->
+    <tr>
+      <td colspan="2" class="RockItErrorDataTD">{Error}</td> 
+    </tr>
+ <!-- END Error -->
+    <tr>
+      <td class="RockItFieldCaptionTD">Login&nbsp;</td> 
+      <td class="RockItDataTD"><input type="text" name="{login_Name}" value="{login}" maxlength="100" size="20" class="RockItInput">&nbsp;</td> 
+    </tr>
+ 
+    <tr>
+      <td class="RockItFieldCaptionTD">Password&nbsp;</td> 
+      <td class="RockItDataTD"><input type="password" name="{password_Name}" value="{password}" maxlength="100" size="20" class="RockItInput">&nbsp;</td> 
+    </tr>
+ 
+    <tr>
+      <td colspan="2" align="right" align="center" nowrap class="RockItFooterTD">
+        <!-- BEGIN Button Button_DoLogin --><input name="{Button_Name}" type="submit" value="Login" class="RockItButton"><!-- END Button Button_DoLogin -->&nbsp; </td> 
+    </tr>
+  </table>
+</form>
+<!-- END Record Login -->
+</body>
+</html>

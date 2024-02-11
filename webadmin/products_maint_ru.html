@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta name="GENERATOR" content="CodeCharge Studio 2.3.2.25">
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<title>Products</title>
+<link rel="stylesheet" type="text/css" href="Themes/RockIt/Style.css">
+</head>
+<body bgcolor="#ffffff" link="#000099" alink="#ff0000" vlink="#000099" text="#000000" class="RockItPageBODY">
+{menu}
+<!-- BEGIN Record products -->
+<form method="post" action="{Action}" name="{HTMLFormName}">
+  <font class="RockItFormHeaderFont">Add/Edit Products (russian) </font> 
+  <table cellpadding="2" cellspacing="0" class="RockItFormTABLE">
+    <!-- BEGIN Error -->
+    <tr>
+      <td colspan="2" class="RockItErrorDataTD">{Error}</td> 
+    </tr>
+    <!-- END Error -->
+    <tr>
+      <td class="RockItFieldCaptionTD">Header&nbsp;</td> 
+      <td class="RockItDataTD"><input name="{product_header_Name}" value="{product_header}" maxlength="50" size="50" class="RockItInput">&nbsp;</td> 
+    </tr>
+ 
+    <tr>
+      <td class="RockItFieldCaptionTD">Desc&nbsp;</td> 
+      <td class="RockItDataTD"><textarea class="RockItTextarea" name="{product_desc_Name}" rows="3" cols="50">{product_desc}</textarea>&nbsp;</td> 
+    </tr>
+ 
+    <tr>
+      <td colspan="2" align="right" nowrap class="RockItFooterTD">
+        <!-- BEGIN Button Button_Insert --><input name="{Button_Name}" type="submit" value="Add" class="RockItButton"><!-- END Button Button_Insert -->
+        <!-- BEGIN Button Button_Update --><input name="{Button_Name}" type="submit" value="Submit" class="RockItButton"><!-- END Button Button_Update -->
+        <!-- BEGIN Button Button_Delete --><input name="{Button_Name}" type="submit" value="Delete" class="RockItButton"><!-- END Button Button_Delete -->&nbsp; </td> 
+    </tr>
+ 
+  </table>
+</form>
+<!-- END Record products -->
+</body>
+</html>

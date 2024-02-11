@@ -1,0 +1,50 @@
+<html>
+<head>
+<meta name="GENERATOR" content="CodeCharge Studio 2.3.2.25">
+<meta http-equiv="content-type" content="text/html; charset=windows-1256">
+<title>Services</title>
+<link rel="stylesheet" type="text/css" href="Themes/RockIt/Style.css">
+</head>
+<body bgcolor="#ffffff" link="#000099" alink="#ff0000" vlink="#000099" text="#000000" class="RockItPageBODY">
+{menu}
+<!-- BEGIN Record services -->
+<form method="post" action="{Action}" name="{HTMLFormName}">
+  <font class="RockItFormHeaderFont">Add/Edit Services (arabic) </font> 
+  <table cellpadding="2" cellspacing="0" class="RockItFormTABLE">
+    <!-- BEGIN Error -->
+    <tr>
+      <td colspan="2" class="RockItErrorDataTD">{Error}</td> 
+    </tr>
+    <!-- END Error -->
+    <tr>
+      <td class="RockItFieldCaptionTD">Header&nbsp;</td> 
+      <td class="RockItDataTD"><input name="{service_header_Name}" value="{service_header}" maxlength="50" size="50" class="RockItInput">&nbsp;</td> 
+    </tr>
+ 
+    <tr>
+      <td class="RockItFieldCaptionTD">Desc&nbsp;</td> 
+      <td class="RockItDataTD"><textarea class="RockItTextarea" name="{service_desc_Name}" rows="3" cols="50">{service_desc}</textarea>&nbsp;</td> 
+    </tr>
+ 
+    <tr>
+      <td class="RockItFieldCaptionTD">Price&nbsp;</td> 
+      <td class="RockItDataTD"><input name="{service_price_Name}" value="{service_price}" maxlength="12" size="12" class="RockItInput">&nbsp;</td> 
+    </tr>
+
+    <tr>
+      <td class="RockItFieldCaptionTD">Speed&nbsp;</td> 
+      <td class="RockItDataTD"><input name="{service_speed_Name}" value="{service_speed}" maxlength="12" size="12" class="RockItInput">&nbsp;</td> 
+    </tr>
+ 
+    <tr>
+      <td colspan="2" align="right" nowrap class="RockItFooterTD">
+        <!-- BEGIN Button Button_Insert --><input name="{Button_Name}" type="submit" value="Add" class="RockItButton"><!-- END Button Button_Insert -->
+        <!-- BEGIN Button Button_Update --><input name="{Button_Name}" type="submit" value="Submit" class="RockItButton"><!-- END Button Button_Update -->
+        <!-- BEGIN Button Button_Delete --><input name="{Button_Name}" type="submit" value="Delete" class="RockItButton"><!-- END Button Button_Delete -->&nbsp; </td> 
+    </tr>
+ 
+  </table>
+</form>
+<!-- END Record services -->
+</body>
+</html>
